@@ -3,7 +3,7 @@ using System.Reflection;
 using HarmonyLib;
 using UnityModManagerNet;
 
-namespace MOD_NAME;
+namespace WeatherForecastFix;
 
 public static class Main
 {
