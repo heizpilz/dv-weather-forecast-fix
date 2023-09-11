@@ -9,7 +9,9 @@ using UnityModManagerNet;
 
 namespace WeatherForecastFix;
 
+#if DEBUG
 [EnableReloading]
+#endif
 public static class Main
 {
 	// Unity Mod Manage Wiki: https://wiki.nexusmods.com/index.php/Category:Unity_Mod_Manager
@@ -23,6 +25,9 @@ public static class Main
 			harmony.PatchAll(Assembly.GetExecutingAssembly());
 
 			// Other plugin startup logic
+			#if DEBUG
+			modEntry.OnUnload = OnUnload;
+			#endif
 		}
 		catch (Exception ex)
 		{
@@ -33,6 +38,15 @@ public static class Main
 
 		return true;
 	}
+
+	#if DEBUG
+	static bool OnUnload(UnityModManager.ModEntry modEntry)
+	{
+		var harmony = new Harmony(modEntry.Info.Id);
+		harmony.UnpatchAll(modEntry.Info.Id);
+		return true;
+	}
+	#endif
 
 	[HarmonyPatch(typeof(WeatherForecaster), "OnHourChanged")]
 	class DoForecastInHoursAfter6
