@@ -9,14 +9,14 @@
 
 <!-- PROJECT TITLE -->
 <div align="center">
-	<h1>Unity Mod Manager Mod Template</h1>
+	<h1>Weather Forecast Fix</h1>
 	<p>
-		A template for creating <a href="http://www.derailvalley.com/">Derail Valley</a> mods that load via <a href="https://www.nexusmods.com/site/mods/21">Unity Mod Manager</a>.
+		A <a href="http://www.derailvalley.com/">Derail Valley</a> mod that loads via <a href="https://www.nexusmods.com/site/mods/21">Unity Mod Manager</a>.
 		<br />
 		<br />
-		<a href="https://github.com/derail-valley-modding/template-umm/issues">Report Bug</a>
+		<a href="https://github.com/heizpilz/dv-weather-forecast-fix/issues">Report Bug</a>
 		·
-		<a href="https://github.com/derail-valley-modding/template-umm/issues">Request Feature</a>
+		<a href="https://github.com/heizpilz/dv-weather-forecast-fix/issues">Request Feature</a>
 	</p>
 </div>
 
@@ -41,9 +41,13 @@
 
 ## About The Project
 
-This is a template for Derail Valley mods that load via the Unity Mod Manager mod loader.  
-TODO: Instructions for how mod creators use this template.
+While poking around for the bonus end time mod, I came across the issue with the current weather forecast system. So here I try to fix it.
 
+This mod can safely be disabled at all times.
+
+It will probably break and get redundant when the devs get to implementing a proper fix for this issue. I strongly advise to check the release notes of upcoming game updates and uninstall this mod if changes to the weather forecast are announced.
+
+Get the mod from <a href="https://www.nexusmods.com/derailvalley/mods/800">Nexus</a>
 
 
 
@@ -116,15 +120,15 @@ See [LICENSE][license-url] for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/derail-valley-modding/template-umm.svg?style=for-the-badge
-[contributors-url]: https://github.com/derail-valley-modding/template-umm/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/derail-valley-modding/template-umm.svg?style=for-the-badge
-[forks-url]: https://github.com/derail-valley-modding/template-umm/network/members
-[stars-shield]: https://img.shields.io/github/stars/derail-valley-modding/template-umm.svg?style=for-the-badge
-[stars-url]: https://github.com/derail-valley-modding/template-umm/stargazers
-[issues-shield]: https://img.shields.io/github/issues/derail-valley-modding/template-umm.svg?style=for-the-badge
-[issues-url]: https://github.com/derail-valley-modding/template-umm/issues
-[license-shield]: https://img.shields.io/github/license/derail-valley-modding/template-umm.svg?style=for-the-badge
-[license-url]: https://github.com/derail-valley-modding/template-umm/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/heizpilz/dv-weather-forecast-fix.svg?style=for-the-badge
+[contributors-url]: https://github.com/heizpilz/dv-weather-forecast-fix/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/heizpilz/dv-weather-forecast-fix.svg?style=for-the-badge
+[forks-url]: https://github.com/heizpilz/dv-weather-forecast-fix/network/members
+[stars-shield]: https://img.shields.io/github/stars/heizpilz/dv-weather-forecast-fix.svg?style=for-the-badge
+[stars-url]: https://github.com/heizpilz/dv-weather-forecast-fix/stargazers
+[issues-shield]: https://img.shields.io/github/issues/heizpilz/dv-weather-forecast-fix.svg?style=for-the-badge
+[issues-url]: https://github.com/heizpilz/dv-weather-forecast-fix/issues
+[license-shield]: https://img.shields.io/github/license/heizpilz/dv-weather-forecast-fix.svg?style=for-the-badge
+[license-url]: https://github.com/heizpilz/dv-weather-forecast-fix/blob/main/LICENSE
 [references-url]: https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-your-build?view=vs-2022
 [autocrlf-url]: https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_formatting_and_whitespace

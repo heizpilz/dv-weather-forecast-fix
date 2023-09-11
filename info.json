@@ -5,5 +5,6 @@
 	"Author": "heizpilz",
 	"EntryMethod": "WeatherForecastFix.Main.Load",
 	"ManagerVersion": "0.27.3",
+	"HomePage": "https://www.nexusmods.com/derailvalley/mods/800",
 	"Repository": "https://raw.githubusercontent.com/heizpilz/dv-weather-forecast-fix/main/repository.json"
 }
