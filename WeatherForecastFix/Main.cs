@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
+using DV;
 using DV.WeatherSystem;
 using HarmonyLib;
 using UnityEngine;
@@ -18,6 +19,12 @@ public static class Main
 	private static bool Load(UnityModManager.ModEntry modEntry)
 	{
 		Harmony? harmony = null;
+
+		if (BuildInfo.BUILD_VERSION_MAJOR > 98)
+		{
+			modEntry.Logger.Log("Mod is no longer needed from Build 99 onwards, as the vanilla bug is fixed. The mod will do nothing and should be uninstalled.");
+			return true;
+		}
 
 		try
 		{

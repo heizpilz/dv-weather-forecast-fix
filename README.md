@@ -41,11 +41,13 @@
 
 ## About The Project
 
+**This mod is obsolete as of Build 99, as the vanilla bug is fixed.**
+
 While poking around for the bonus end time mod, I came across the issue with the current weather forecast system. So here I try to fix it.
 
 This mod can safely be disabled at all times.
 
-It will probably break and get redundant when the devs get to implementing a proper fix for this issue. I strongly advise to check the release notes of upcoming game updates and uninstall this mod if changes to the weather forecast are announced.
+It will probably break and get redundant when the devs get to implementing a proper fix for this issue. I strongly advise to check the release notes of upcoming game updates and uninstall this mod if changes to the weather forecast are announced. **This is now the case. The mod should be uninstalled when running Build 99 or higher.**
 
 Get the mod from <a href="https://www.nexusmods.com/derailvalley/mods/800">Nexus</a>
 

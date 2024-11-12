@@ -2,6 +2,11 @@
 	"Releases": [
 		{
 			"Id": "WeatherForecastFix",
+			"Version": "1.1.0",
+			"DownloadUrl": "https://github.com/heizpilz/dv-weather-forecast-fix/releases/download/v1.1.0/WeatherForecastFix_v1.1.0.zip"
+		},
+		{
+			"Id": "WeatherForecastFix",
 			"Version": "1.0.0",
 			"DownloadUrl": "https://github.com/heizpilz/dv-weather-forecast-fix/releases/download/v1.0.0/WeatherForecastFix_v1.0.0.zip"
 		}
